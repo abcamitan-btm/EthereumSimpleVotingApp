@@ -1,0 +1,15 @@
+Install NodeJS using the Latest build
+
+## open terminal and check if node and npm are installed.
+
+node --version
+v7.10.0
+npm --version
+4.2.0
+
+## on terminal run below commands
+
+mkdir -p ethereum_voting_dapp/chapter1
+cd ethereum_voting_dapp/chapter1
+npm install ethereumjs-testrpc web3@0.20.1 solc
+node_modules/.bin/testrpc
